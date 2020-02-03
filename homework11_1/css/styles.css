@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=Pacifico|Raleway:300,400,700,900&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    font-size: 10px;
+    scroll-behavior: smooth; }
+  
+body {
+  min-height: 100%;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.4rem;
+  font-style: 1.8;
+  line-height: "Raleway", sans-serif;
+  font-weight: 300;
+  color: #262626;
+  position: relative; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+.section__title {
+  font-size: 6rem;
+  font-weight: 900;
+  line-height: 1;
+  margin: 0; }
+
+.section__text {
+  font-size: 1.7rem;
+  font-weight: 300;
+  line-height: 2.7rem; }
+
+.btn {
+  border: none;
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.3);
+  color: #fff;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 300;
+  height: 55px;
+  line-height: 2.7rem;
+  width: 200px;
+  -webkit-transition: all .2s ease-in;
+  -o-transition: all .2s ease-in;
+  transition: all .2s ease-in; }
+  .btn:hover, .btn:focus, .btn:active {
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    transform: scale(1.03); }
+
+.fresh-life {
+  min-height: 1000px;
+  position: relative;
+  background-color: #f9f8fb;
+  background-image: url("../img/section1.jpg");
+  background-position: right bottom;
+  background-repeat: no-repeat; }
+  .fresh-life__scroll {
+    text-align: center;
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0); }
+  .fresh-life .container {
+    height: 1000px; }
+  .fresh-life .section__title {
+    margin: 215px 0 20px; }
+  .fresh-life .section__text {
+    max-width: 370px; }
+  .fresh-life__btn {
+    background-color: #ff6033;
+    margin-top: 20px; }
+  .fresh-life__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 50px;
+    height: 147px; }
+    .fresh-life__header-logo {
+      font-family: "Pacifico", cursive;
+      font-size: 5rem;
+      -webkit-transition: all .25s ease-in;
+      -o-transition: all .25s ease-in;
+      transition: all .25s ease-in; }
+      .fresh-life__header-logo:hover {
+        -webkit-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+        -o-transform: scale(1.03);
+        transform: scale(1.03); }
+    .fresh-life__header-menu {
+      list-style: none;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin: 0; }
+    .fresh-life__header-item {
+      width: 100px;
+      margin: 0;
+      padding: 0;
+      text-align: center; }
+    .fresh-life__header-link {
+      text-decoration: none;
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #262626;
+      padding: 0 1px; }
+      .fresh-life__header-link:hover {
+        padding-top: 5px;
+        border-top: 3px solid #ff6033; }
+
+.about {
+  background: #00c4c4;
+  background: -o-radial-gradient(circle, #00c4c4 0%, #00b7b7 32%, #00adad 68%, #009c9c 100%);
+  background: radial-gradient(circle, #00c4c4 0%, #00b7b7 32%, #00adad 68%, #009c9c 100%);
+  color: #fff; }
+  .about__wrap {
+    max-width: 500px;
+    vertical-align: middle; }
+  .about .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+  .about .section__title {
+    margin-bottom: 25px; }
+  .about .section__text {
+    line-height: 1.8; }
